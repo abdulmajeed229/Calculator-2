@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+     height: 100vh;
+     width: 100%;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+.calculator{
+    background: skyblue;
+    padding: 20px;
+    border-radius: 10px;
+    height: 480px;
+    width: 300px;
+}
+.calculator form input{
+   outline: none;
+   border: none;
+   width: 60px;
+   height: 60px;
+   border-radius: 10px;
+   margin: 5px;
+   margin-top: 15px;
+   cursor: pointer;
+   font-size: 20px;
+   border: 1px solid gray;
+}
+#screen{
+    width: 283px;
+    font-size: 25px;
+}
+#equal{
+    width: 135px;
+}
